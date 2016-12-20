@@ -22,11 +22,6 @@ tpd=0
 cont=0
 silhouette=0
 
-gtk "gtk_entry_set_text ${dir_work} \"/DATA/233/hli/test_STN_parcellation\""
-gtk "gtk_entry_set_text ${dir_data} \"/DATA/233/hli/Data/chengdu\""
-gtk "gtk_entry_set_text ${file_sub} \"/DATA/233/hli/Data/chengdu/sub_CD_2.txt\""
-gtk "gtk_entry_set_text ${name_ROI} \"STN\""
-
 
 gtk "gtk_entry_set_text ${exe_matlab} \"$(command -v matlab)\""
 gtk "gtk_entry_set_text ${exe_qsub} \"$(command -v qsub)\""
