@@ -1,0 +1,6 @@
+#!/bin/bash
+. project.inc
+. widgets.inc
+. functions.inc
+. events.inc
+gtk "gtk_server_exit"
