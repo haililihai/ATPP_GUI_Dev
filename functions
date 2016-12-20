@@ -48,8 +48,6 @@ gtk "gtk_entry_set_text ${name_n_iter} \"100\""
 define status_ready gtk "gtk_statusbar_get_context_id ${statusbar} \"ready\""
 gtk "gtk_statusbar_push ${statusbar} ${status_ready} \"Ready\""
 
-#gtk "gtk_statusbar_pop ${statusbar} ${status_ready}"
-
 
 #-------------------------Callback functions------------------------------#
 function on_button_dir_pl_file_set()
