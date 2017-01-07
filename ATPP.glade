@@ -95,7 +95,7 @@
                         <property name="action">select-folder</property>
                         <property name="use_preview_label">False</property>
                         <property name="title" translatable="yes">Select a directory</property>
-                        <signal name="file_set" handler="on_button_dir_pl_file_set"/>
+                        <signal name="file_set" handler="on_button_dir_pl_file_set" swapped="no"/>
                       </widget>
                       <packing>
                         <property name="expand">False</property>
@@ -173,7 +173,7 @@
                         <property name="can_focus">False</property>
                         <property name="action">select-folder</property>
                         <property name="title" translatable="yes">Select a directory</property>
-                        <signal name="file_set" handler="on_button_dir_work_file_set"/>
+                        <signal name="file_set" handler="on_button_dir_work_file_set" swapped="no"/>
                       </widget>
                       <packing>
                         <property name="expand">False</property>
@@ -250,7 +250,7 @@
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="action">select-folder</property>
-                        <signal name="file_set" handler="on_button_dir_data_file_set"/>
+                        <signal name="file_set" handler="on_button_dir_data_file_set" swapped="no"/>
                       </widget>
                       <packing>
                         <property name="expand">False</property>
@@ -326,7 +326,7 @@
                       <widget class="GtkFileChooserButton" id="button_file_sub">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <signal name="file_set" handler="on_button_file_sub_file_set"/>
+                        <signal name="file_set" handler="on_button_file_sub_file_set" swapped="no"/>
                       </widget>
                       <packing>
                         <property name="expand">False</property>
@@ -477,7 +477,7 @@
                                 <property name="receives_default">False</property>
                                 <property name="use_action_appearance">False</property>
                                 <property name="draw_indicator">True</property>
-                                <signal name="toggled" handler="on_left_toggled"/>
+                                <signal name="toggled" handler="on_left_toggled" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -494,7 +494,7 @@
                                 <property name="receives_default">False</property>
                                 <property name="use_action_appearance">False</property>
                                 <property name="draw_indicator">True</property>
-                                <signal name="toggled" handler="on_right_toggled"/>
+                                <signal name="toggled" handler="on_right_toggled" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -566,7 +566,7 @@
                                         <property name="receives_default">False</property>
                                         <property name="use_action_appearance">False</property>
                                         <property name="draw_indicator">True</property>
-                                        <signal name="toggled" handler="on_step0_toggled"/>
+                                        <signal name="toggled" handler="on_step0_toggled" swapped="no"/>
                                       </widget>
                                       <packing>
                                         <property name="expand">True</property>
@@ -582,7 +582,7 @@
                                         <property name="receives_default">False</property>
                                         <property name="use_action_appearance">False</property>
                                         <property name="use_stock">True</property>
-                                        <signal name="clicked" handler="on_button_edit_clicked"/>
+                                        <signal name="clicked" handler="on_button_edit_clicked" swapped="no"/>
                                       </widget>
                                       <packing>
                                         <property name="expand">True</property>
@@ -616,7 +616,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step1_toggled"/>
+                                    <signal name="toggled" handler="on_step1_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -632,7 +632,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step2_toggled"/>
+                                    <signal name="toggled" handler="on_step2_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -648,7 +648,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step3_toggled"/>
+                                    <signal name="toggled" handler="on_step3_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -664,7 +664,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step4_toggled"/>
+                                    <signal name="toggled" handler="on_step4_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -680,7 +680,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step5_toggled"/>
+                                    <signal name="toggled" handler="on_step5_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -707,7 +707,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step6_toggled"/>
+                                    <signal name="toggled" handler="on_step6_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -723,7 +723,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step7_toggled"/>
+                                    <signal name="toggled" handler="on_step7_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -739,7 +739,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step8_toggled"/>
+                                    <signal name="toggled" handler="on_step8_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -755,7 +755,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step9_toggled"/>
+                                    <signal name="toggled" handler="on_step9_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -771,7 +771,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step10_toggled"/>
+                                    <signal name="toggled" handler="on_step10_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -787,7 +787,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step11_toggled"/>
+                                    <signal name="toggled" handler="on_step11_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -803,7 +803,7 @@
                                     <property name="receives_default">False</property>
                                     <property name="use_action_appearance">False</property>
                                     <property name="draw_indicator">True</property>
-                                    <signal name="toggled" handler="on_step12_toggled"/>
+                                    <signal name="toggled" handler="on_step12_toggled" swapped="no"/>
                                   </widget>
                                   <packing>
                                     <property name="expand">True</property>
@@ -875,7 +875,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_split_half_toggled"/>
+                                            <signal name="toggled" handler="on_split_half_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -891,7 +891,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_pairwise_toggled"/>
+                                            <signal name="toggled" handler="on_pairwise_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -907,7 +907,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_leave_one_out_toggled"/>
+                                            <signal name="toggled" handler="on_leave_one_out_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -945,7 +945,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_hi_vi_toggled"/>
+                                            <signal name="toggled" handler="on_hi_vi_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -961,7 +961,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_tpd_toggled"/>
+                                            <signal name="toggled" handler="on_tpd_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -999,7 +999,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_cont_toggled"/>
+                                            <signal name="toggled" handler="on_cont_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -1015,7 +1015,7 @@
                                             <property name="receives_default">False</property>
                                             <property name="use_action_appearance">False</property>
                                             <property name="draw_indicator">True</property>
-                                            <signal name="toggled" handler="on_silhouette_toggled"/>
+                                            <signal name="toggled" handler="on_silhouette_toggled" swapped="no"/>
                                           </widget>
                                           <packing>
                                             <property name="expand">True</property>
@@ -1112,7 +1112,7 @@
                         <property name="use_action_appearance">False</property>
                         <property name="yalign">0.4699999988079071</property>
                         <property name="draw_indicator">True</property>
-                        <signal name="toggled" handler="on_GE_toggled"/>
+                        <signal name="toggled" handler="on_GE_toggled" swapped="no"/>
                       </widget>
                       <packing>
                         <property name="expand">True</property>
@@ -1222,7 +1222,7 @@
                                 <property name="show_hidden">True</property>
                                 <property name="use_preview_label">False</property>
                                 <property name="title" translatable="yes">Select a directory</property>
-                                <signal name="file_set" handler="on_button_exe_matlab_file_set"/>
+                                <signal name="file_set" handler="on_button_exe_matlab_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -1303,7 +1303,7 @@
                                 <property name="show_hidden">True</property>
                                 <property name="use_preview_label">False</property>
                                 <property name="title" translatable="yes">Select a directory</property>
-                                <signal name="file_set" handler="on_button_dir_spm_file_set"/>
+                                <signal name="file_set" handler="on_button_dir_spm_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -1384,7 +1384,7 @@
                                 <property name="show_hidden">True</property>
                                 <property name="use_preview_label">False</property>
                                 <property name="title" translatable="yes">Select a directory</property>
-                                <signal name="file_set" handler="on_button_dir_nifti_file_set"/>
+                                <signal name="file_set" handler="on_button_dir_nifti_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -1464,7 +1464,7 @@
                                 <property name="show_hidden">True</property>
                                 <property name="use_preview_label">False</property>
                                 <property name="title" translatable="yes">Select a directory</property>
-                                <signal name="file_set" handler="on_button_exe_qsub_file_set"/>
+                                <signal name="file_set" handler="on_button_exe_qsub_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -1544,7 +1544,7 @@
                                 <property name="show_hidden">True</property>
                                 <property name="use_preview_label">False</property>
                                 <property name="title" translatable="yes">Select a directory</property>
-                                <signal name="file_set" handler="on_button_exe_fsl_sub_file_set"/>
+                                <signal name="file_set" handler="on_button_exe_fsl_sub_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -1624,7 +1624,7 @@
                                 <property name="show_hidden">True</property>
                                 <property name="use_preview_label">False</property>
                                 <property name="title" translatable="yes">Select a directory</property>
-                                <signal name="file_set" handler="on_button_exe_probtrackx_file_set"/>
+                                <signal name="file_set" handler="on_button_exe_probtrackx_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -1701,7 +1701,7 @@
                               <widget class="GtkFileChooserButton" id="button_file_temp">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <signal name="file_set" handler="on_button_file_temp_file_set"/>
+                                <signal name="file_set" handler="on_button_file_temp_file_set" swapped="no"/>
                               </widget>
                               <packing>
                                 <property name="expand">False</property>
@@ -2319,11 +2319,11 @@
                 <child>
                   <widget class="GtkTextView" id="textview1">
                     <property name="visible">True</property>
-                    <property name="can_focus">True</property>
+                    <property name="can_focus">False</property>
                     <property name="editable">False</property>
                     <property name="justification">center</property>
                     <property name="accepts_tab">False</property>
-                    <property name="text" translatable="yes">Copyright (C) 2016  Hai Li. GPL v3</property>
+                    <property name="text">Copyright (C) 2016  Hai Li. GPL v3</property>
                   </widget>
                   <packing>
                     <property name="expand">True</property>
@@ -2378,7 +2378,7 @@
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_action_appearance">False</property>
-                <signal name="clicked" handler="on_button_run_clicked"/>
+                <signal name="clicked" handler="on_button_run_clicked" swapped="no"/>
               </widget>
               <packing>
                 <property name="expand">True</property>
@@ -2394,7 +2394,7 @@
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_action_appearance">False</property>
-                <signal name="clicked" handler="on_button_stop_clicked"/>
+                <signal name="clicked" handler="on_button_stop_clicked" swapped="no"/>
               </widget>
               <packing>
                 <property name="expand">True</property>
@@ -2423,7 +2423,7 @@
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_action_appearance">False</property>
-                <signal name="clicked" handler="on_button_progress_clicked"/>
+                <signal name="clicked" handler="on_button_progress_clicked" swapped="no"/>
               </widget>
               <packing>
                 <property name="expand">True</property>
@@ -2452,7 +2452,7 @@
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_action_appearance">False</property>
-                <signal name="clicked" handler="on_button_log_clicked"/>
+                <signal name="clicked" handler="on_button_log_clicked" swapped="no"/>
               </widget>
               <packing>
                 <property name="expand">True</property>

@@ -56,7 +56,7 @@ if LEFT == 1
 			save_untouch_nii(nii,filename);
 		end
     end
-	disp(strcat(SUB{i},'_',ROI,'_L',' Done!'));
+	display(strcat(SUB{i},'_',ROI,'_L',' Done!'));
 end
 
 if RIGHT == 1
@@ -90,7 +90,7 @@ if RIGHT == 1
 		end
     end
 end
-    disp(strcat(SUB{i},'_',ROI,'_R',' Done!'));
+    display(strcat(SUB{i},'_',ROI,'_R',' Done!'));
 end
 
 % close pool
